@@ -44,8 +44,8 @@ nav li a:hover {
     margin: 25px; 
     grid-gap: 25px;
     border: 10px black;
-    justify-items: center;
-    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .gallery_img {
@@ -53,6 +53,7 @@ nav li a:hover {
     height: 100%;
     object-fit: cover;
     border: 2px black;
+    align-self: center;
 }
 
 .gallery_item-1{
