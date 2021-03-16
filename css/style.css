@@ -37,14 +37,11 @@ nav li a:hover {
 
 
 .container {
-    width: 100%;
-    margin: 25px; 
-}
-
-.gallery {
     display: grid;
     grid-template-columns: repeat(4, 300px);
     grid-template-rows: repeat(4, 300px);
+    width: 100%;
+    margin: 25px; 
     grid-gap: 25px;
     border: 10px black;
     justify-items: center;
@@ -55,6 +52,7 @@ nav li a:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: 2px black;
 }
 
 .gallery_item-1{
