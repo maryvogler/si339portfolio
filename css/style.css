@@ -47,6 +47,8 @@ nav li a:hover {
     grid-template-rows: repeat(3, 300px);
    /* width: 100%;
     margin: 25px; */
+    margin-right: auto;
+    margin-left: auto;
     grid-gap: 25px;
     border: 10px black;
     align-items: center;
