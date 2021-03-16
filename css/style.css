@@ -1,11 +1,7 @@
 
 body {
-    min-height: 100%;
-    background-size: cover;
     background-color: #7fdbff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 100px;
-    padding: 50px;
 }
 
 main {
@@ -14,10 +10,10 @@ main {
 
 header {
     background-color: #DDDDDD;
-    height: 100px;
+   /* height: 100px;
     position: fixed;
     display: inline;
-    margin: 25px;
+    margin: 25px; */
 }
 
 nav li {
