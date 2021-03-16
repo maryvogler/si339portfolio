@@ -37,13 +37,16 @@ nav li a:hover {
     color: white;
 }
 
+.active {
+    background-color: 6433FF; 
+  }
 
 .container {
     display: grid;
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: repeat(3, 300px);
-    width: 100%;
-    margin: 25px; 
+   /* width: 100%;
+    margin: 25px; */
     grid-gap: 25px;
     border: 10px black;
     align-items: center;
@@ -54,7 +57,7 @@ nav li a:hover {
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    border: 2px black;
+    border: 50px black;
 }
 
 .gallery_img:hover {
