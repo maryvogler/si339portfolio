@@ -6,6 +6,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 100px;
     padding: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
