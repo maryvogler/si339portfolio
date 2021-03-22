@@ -11,15 +11,17 @@ main {
 }
 
 header {
-   /* background-color: #DDDDDD; */
-   /* height: 100px;
-    position: fixed;
-    display: inline;
-    margin: 25px; */
+    background-color: #DDA0DD;
+    border: 7px ridge lightgray;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .home_page {
-    border: 2px dotted #A0A0A0;
+    border: 7px ridge #DDA0DD;
     padding: 10px;
     display: block;
     margin-left: auto;
@@ -53,10 +55,12 @@ nav li {
 }
 
 nav li a {
+    font-size: 25px;
     color: black;
     text-align: center;
-    padding: 10px 10px;
+    padding: 85px; 
     text-decoration: underline;
+    vertical-align: middle;
 }
 nav li a:hover {
     color: white;
