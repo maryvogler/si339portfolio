@@ -9,7 +9,7 @@ main {
 }
 
 header {
-    background-color: #DDDDDD;
+   /* background-color: #DDDDDD; */
    /* height: 100px;
     position: fixed;
     display: inline;
@@ -26,13 +26,13 @@ header {
 p {
     text-align: center;
     text-decoration: none;
-    background-color: white;
+   /* background-color: white; */
 
 }
 h1{
     text-align: left;
     text-decoration: none;
-    background-color: white;
+  /*  background-color: white; */
     padding: 10px;
     font-size: 25px;
 }
@@ -40,7 +40,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: white;
+ /*   background-color: white; */
 }
 
 nav li {
