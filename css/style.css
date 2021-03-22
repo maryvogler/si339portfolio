@@ -149,4 +149,25 @@ nav li a:hover {
     grid-row-end: 4;
 }
 
+#contact {
+    display: block;
+    background-color: lightgray;
+    margin: 0px auto;
+    width: 850px;
+    padding: 10px;
 
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px dotted black;
+    resize: vertical;
+
+}
+
+input[type=submit] {
+    background-color: lightgray;
+    padding: 10px;
+    border: .5px dotted black;
+
+}
