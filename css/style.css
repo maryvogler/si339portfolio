@@ -30,6 +30,17 @@ header {
     
 }
 
+.about_me {
+    border: 7px ridge #DDA0DD;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%
+    
+}
+
 p {
     text-align: center;
     text-decoration: none;

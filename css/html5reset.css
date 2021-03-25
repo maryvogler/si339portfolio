@@ -1,0 +1,9 @@
+head, body, header, nav, ul, li, main, h1, p, div, figure, form, label, input, footer {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
