@@ -70,7 +70,7 @@ nav li a {
     color: black;
     text-align: center;
     padding: 85px; 
-    text-decoration: underline;
+    text-decoration: none;
     vertical-align: middle;
 }
 nav li a:hover {
@@ -78,7 +78,8 @@ nav li a:hover {
 }
 
 .active {
-    color: 6433FF;
+    color: white;
+    text-decoration: underline;
   }
 
 footer {
