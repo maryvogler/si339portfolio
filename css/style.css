@@ -78,7 +78,7 @@ nav li a:hover {
 }
 
 .active {
-    background-color: 6433FF; 
+    color: 6433FF;
   }
 
 footer {
@@ -99,9 +99,9 @@ footer {
    /* width: 100%;
     margin: 25px; */
     margin: 0px auto;
-    width: 850px;
-    grid-gap: 25px;
-    border: 10px black;
+    width: 950px;
+    grid-gap: 50px;
+    column-gap: 50px;
     align-items: center;
     justify-items: center;
 }
@@ -110,7 +110,7 @@ footer {
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    border: 50px black;
+    border: 7px ridge #DDA0DD;
 }
 
 .gallery_img:hover {
