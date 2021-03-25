@@ -183,6 +183,7 @@ footer {
     .container {
         column-count: 2;
     }
+}
 
 #contact {
     display: block;
