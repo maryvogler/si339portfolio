@@ -179,7 +179,7 @@ footer {
 }
 @media (max-width: 480px) {
     .container {
-        column-count: 2;
+        grid-template-columns: repeat(2, auto)!important;
     }
 }
 
