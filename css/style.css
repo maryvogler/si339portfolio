@@ -179,6 +179,10 @@ footer {
     grid-row-start: 3;
     grid-row-end: 4;
 }
+@media (max-width: 480px) {
+    .container {
+        column-count: 2;
+    }
 
 #contact {
     display: block;
