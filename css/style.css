@@ -76,7 +76,7 @@ nav li a:hover {
 }
 
 .active {
-    color: white;
+    color: #FF7F50;
     text-decoration: underline;
   }
 
@@ -85,6 +85,7 @@ footer {
     position: flex;
     justify-content: center;
     align-items: center;
+    color: black;
     background-color: #DDA0DD;
     border: 7px ridge #FF7F50;
     width: 100%;
