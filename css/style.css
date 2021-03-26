@@ -39,8 +39,7 @@ header {
 }
 
 p {
-    background-color: #AFEEEE;
-    border: 7px ridge #EB3300;
+    
     color: black;
     text-align: center;
     text-decoration: none;
@@ -50,8 +49,6 @@ p {
 h1{
     text-align: left;
     text-decoration: none;
-    background-color: #AFEEEE;
-    border: 7px ridge #EB3300;
     float: left;
     padding: 10px;
     font-size: 25px;
@@ -85,6 +82,8 @@ nav li a:hover {
   }
 
 footer {
+    background-color: #AFEEEE;
+    border: 7px ridge #EB3300;
     font-size: 25px;
     position: flex;
     justify-content: center;
