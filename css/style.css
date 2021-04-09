@@ -184,6 +184,11 @@ footer {
     .container {
         grid-template-columns: repeat(2, auto)!important;
     }
+    .navbar navbar-expand navbar-light li {
+        padding: 0;
+        margin: 0;
+        width: 50%;
+    }
 }
 
 #contact {
