@@ -1,4 +1,4 @@
-/* source for skip to main content: https://css-tricks.com/how-to-create-a-skip-to-content-link/*/
+/* source for skip to main content: https://css-tricks.com/how-to-create-a-skip-to-content-link/ and https://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/ */
 
 body {
     background-image: url("../imgs/background-photo.png");
@@ -191,6 +191,7 @@ footer {
         margin: 0;
         width: 50%;
         flex-direction:row !important;
+        font-size: 10px;
     }
 
 }
