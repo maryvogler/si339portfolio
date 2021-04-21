@@ -214,14 +214,21 @@ input[type=text], textarea {
     padding: 10px;
     border: 2px dotted black;
     resize: vertical;
+    box-sizing: border-box;
+
 
 }
 
 input[type=submit] {
     background-color: #EB3300;
+    color: black;
     padding: 10px;
     border: .5px dotted black;
 
+}
+
+input[type=submit]:hover {
+    background-color: white;
 }
 
 .skip-to-content-link {
