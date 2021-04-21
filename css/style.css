@@ -1,5 +1,6 @@
 /* source for skip to main content: https://css-tricks.com/how-to-create-a-skip-to-content-link/ and https://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/ */
 /*source for contact form: https://www.w3schools.com/howto/howto_css_contact_form.asp */
+/*source for flipcard: https://www.w3schools.com/howto/howto_css_flip_card.asp*/
 body {
     background-image: url("../imgs/background-photo.png");
     min-height: 100%;
@@ -34,7 +35,9 @@ header {
 }
 
 .flip-card {
-    border: 7px ridge #EB3300;    
+    border: 7px ridge #EB3300;  
+    width: 400px;
+    height: 400px;  
     
 }
 
@@ -43,21 +46,13 @@ header {
     width: 100%;
     height: 100%;
     text-align: center;
+    transition: transform 1s;
 }
 
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
 
-.flip-card-front {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: 50%;
-    object-fit: cover;
-
-}
 
 .flip-card-front, .flip-card-back {
     position: absolute;
@@ -70,6 +65,7 @@ header {
 .flip-card-back {
     background-color: #AFEEEE;
     color: black;
+    transform: rotateY(180deg);
 }
 
 p {
@@ -246,7 +242,7 @@ footer {
         flex-direction:row !important;
         font-size: 10px;
     }
-    .about_me {
+    .home_page {
         background-attachment: scroll;
     }
 }
