@@ -1,5 +1,5 @@
 /* source for skip to main content: https://css-tricks.com/how-to-create-a-skip-to-content-link/ and https://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/ */
-
+/*source for contact form: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 body {
     background-image: url("../imgs/background-photo.png");
     min-height: 100%;
@@ -232,17 +232,19 @@ input[type=submit]:hover {
 }
 
 .skip-to-content-link {
-    top: -1000px;
-    left: -1000px;
-    text-align: left;
+    left: -999px;
+    position: absolute;
+    top: auto;
     overflow: hidden;
-    color: black;
-    font-size: 20px;
+    z-index: -999;
 
   }
 
-  .skip-to-content-link:focus {
-    left: 0;
-    top: 0;
-    overflow: visible;
+  .skip-to-content-link:focus, .skip-to-content-link:active {
+    color: black;
+    font-size: 20px;
+    left: auto;
+    top: auto;
+    overflow: auto;
+    z-index: 999;
   }
