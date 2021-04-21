@@ -251,6 +251,23 @@ footer {
         flex-direction:row !important;
     }
 }
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+label {
+    display: block;
+    max-width: 100%;
+}
+
 #contact {
     display: block;
     background-color: #EB3300;
