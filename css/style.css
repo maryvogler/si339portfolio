@@ -35,11 +35,9 @@ body {
     position: absolute;
     right: 0;
     top: 0;
+    width: 25%;
 }
 
-.active {
-    background-color:  #EB3300;
-}
 
 
 .home_page {
@@ -301,17 +299,6 @@ input[type=submit]:hover {
     z-index: 999;
   }
 
-/*mobile view*/
-@media (max-width:600px) {
-    .navbar ul li {
-        display: none;
-    }
-
-    .navbar a.icon {
-        float: right;
-        display: block;
-    }
-}
 
 /*Tablet view*/
 @media (min-width:768px) {
