@@ -14,7 +14,7 @@
 <script>
 function myFunction() {
   var x = document.querySelector(".links");
-  if ($(window).width() <= 480) {
+  if ($(window).width() <= 767) {
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
@@ -38,9 +38,9 @@ function myFunction() {
         <div class="navbar" aria-label="Navigation Bar">
             <a href="about.html" class="active">About Me</a>
 			<div id='links'>
-				<a href = "index.html">Home</a></li>
-				<a href = "foodpics.html">Food Pictures</a></li>
-				<a href = "contact.html">Contact</a></li>
+				<a href = "index.html">Home</a>
+				<a href = "foodpics.html">Food Pictures</a>
+				<a href = "contact.html">Contact</a>
 			<div>
             <div class='d-none d-sm-block'>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
