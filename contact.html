@@ -11,25 +11,39 @@
 
   gtag('config', 'G-8MQKBCXJ2B');
 </script>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--link rel="stylesheet" href="css/html5reset.css"-->
-	<link rel="stylesheet" href="css/style.css">
-	<title>Other</title>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--link rel="stylesheet" href="css/html5reset.css"-->
+<link rel="stylesheet" href="css/style.css">
+<title>Other</title>
 </head>
+
 <body>
 
-    <header>
-		<nav class="navbar navbar-expand navbar-light" aria-label="Navigation Bar">
+	<header>
+        <nav class="navbar" aria-label="Navigation Bar">
+            <a href="contact.html" class="active">Contact</a>
 			<ul>
 				<li><a href = "index.html">Home</a></li>
-                <li><a href = "about.html">About Me</a></li>
 				<li><a href = "foodpics.html">Food Pictures</a></li>
-				<li><a class = "active" href = "contact.html">Contact</a></li>
+				<li><a href = "about.html">About Me</a></li>
 			</ul>
-	</nav>
-	</header>
-
+            <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+    </nav>
+    </header>
 
 	<main>
 		<a class="skip-to-content-link" href="#content">

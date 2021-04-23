@@ -1,3 +1,4 @@
+<!--source for navbar movile view: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,25 +11,43 @@
 
   gtag('config', 'G-8MQKBCXJ2B');
 </script>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--link rel="stylesheet" href="css/html5reset.css"-->
-	<link rel="stylesheet" href="css/style.css">
-	<title>Home</title>
+
+<script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--link rel="stylesheet" href="css/html5reset.css"-->
+<link rel="stylesheet" href="css/style.css">
+<title>Home</title>
+
 </head>
 <body>
 
     <header>
-		<nav class="navbar navbar-expand navbar-light" aria-label="Navigation Bar">
+        <nav class="navbar" aria-label="Navigation Bar">
+            <a href="index.html" class="active">Home</a>
 			<ul>
-				<li><a class = "active" href = "index.html">Home</a></li>
-                <li><a href = "about.html">About Me</a></li>
+				<li><a href = "about.html">About Me</a></li>
 				<li><a href = "foodpics.html">Food Pictures</a></li>
 				<li><a href = "contact.html">Contact</a></li>
 			</ul>
-	</nav>
-	</header>
 
+			
+            <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		
+    </nav>
+    </header>
 		
 	<main>
 		<a class="skip-to-content-link" href="#content">
