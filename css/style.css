@@ -36,7 +36,8 @@ header {
 
 .flip-card {
     display: grid;
-    text-align: center; 
+    text-align: center;
+    border: 7px ridge #EB3300;  
 
     
 }
@@ -69,7 +70,6 @@ header {
 .flip-card-back {
     background-color: #AFEEEE;
     color: black;
-    -webkit-transform:rotateY(180deg);
     transform: rotateY(180deg);
 }
 
@@ -109,12 +109,6 @@ h1{
 
 }
 
-.navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -127,12 +121,12 @@ nav li {
 }
 
 nav li a {
-    display: block;
     font-size: 25px;
     color: black;
     text-align: center;
     padding: 85px; 
     text-decoration: none;
+    vertical-align: middle;
 }
 nav li a:hover {
     color: #4B0082;
@@ -147,7 +141,7 @@ footer {
     background-color: #AFEEEE;
     border: 7px ridge #EB3300;
     font-size: 20px;
-    position: fixed;
+    position: flex;
     justify-content: center;
     align-items: center;
     color: black;
@@ -155,7 +149,6 @@ footer {
     height: 50px;
     bottom: 0px;
 }
-
 #main{
     display: grid;
     grid-template-columns: repeat(3, 300px);
@@ -243,41 +236,26 @@ footer {
     grid-row-start: 3;
     grid-row-end: 4;
 }
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     .container {
         grid-template-columns: repeat(2, auto)!important;
     }
-
+    .navbar navbar-expand navbar-light li {
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        flex-direction:row !important;
+        font-size: 10px;
+    }
     .home_page {
         background-attachment: scroll;
     }
 }
-@media only screen and (max-width: 767px) {
-    .navbar {
-        justify-content: center;
-    }
- 
-    .footer {
-        display: block;
-        text-align: center;
-        width: 100%;
 
+@media only screen and (max-width: 1024px) {
+    .navbar navbar-expand navbar-light li {
+        flex-direction:row !important;
     }
- }
- 
-@media only screen and (max-width: 1280px) {
-    /*.navbar {
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-
-    .navbar li {
-        display: block;
-        width: auto;
-
-    }*/
-    
 }
 
 form {
