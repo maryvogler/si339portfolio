@@ -323,18 +323,18 @@ input[type=submit]:hover {
         position: relative;
     }
     
-    nav ul {
+    .navbar ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
      /*   background-color: white; */
     }
     
-    nav li {
+    .navbar li {
         display: inline;
     }
     
-    nav li a {
+    .navbar li a {
         font-size: 25px;
         color: black;
         text-align: center;
@@ -342,7 +342,8 @@ input[type=submit]:hover {
         text-decoration: none;
         vertical-align: middle;
     }
-    nav li a:hover {
+    
+    .navbar li a:hover {
         color: #4B0082;
     }
     
@@ -374,18 +375,18 @@ input[type=submit]:hover {
         position: relative;
     }
     
-    nav ul {
+    .navbar ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
      /*   background-color: white; */
     }
     
-    nav li {
+    .navbar li {
         display: inline;
     }
     
-    nav li a {
+    .navbar li a {
         font-size: 25px;
         color: black;
         text-align: center;
@@ -393,7 +394,8 @@ input[type=submit]:hover {
         text-decoration: none;
         vertical-align: middle;
     }
-    nav li a:hover {
+
+    .navbar li a:hover {
         color: #4B0082;
     }
     

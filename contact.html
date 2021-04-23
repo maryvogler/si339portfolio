@@ -13,7 +13,7 @@
 </script>
 <script>
     function myFunction() {
-  var x = document.getElementById("myLinks");
+  var x = document.querySelector(".links");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
@@ -34,7 +34,7 @@
 	<header>
         <nav class="navbar" aria-label="Navigation Bar">
             <a href="contact.html" class="active">Contact</a>
-			<ul>
+			<ul class='links'>
 				<li><a href = "index.html">Home</a></li>
 				<li><a href = "foodpics.html">Food Pictures</a></li>
 				<li><a href = "about.html">About Me</a></li>
