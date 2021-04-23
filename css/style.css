@@ -302,7 +302,7 @@ input[type=submit]:hover {
 
 /*Tablet view*/
 @media (min-width:768px) {
-    .hamburger {
+    .icon {
         display: none;
     }
     
