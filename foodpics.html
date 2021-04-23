@@ -13,14 +13,12 @@
 
 <script>
  function myFunction() {
-  var x = document.querySelector(".links");
-  if ($(window).width() <= 767) {
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  var x = document.querySelector(".navbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
   } else {
-    x.style.display = "block";
+    x.className = "navbar";
   }
- }
 }
 </script>
 
@@ -36,18 +34,14 @@
 
 <body>
 	<header>
-        <nav class="navbar" aria-label="Navigation Bar">
-            <a href="foodpics.html" class="active">Food Pics</a>
-			<div id='links'>
-				<a href = "index.html">Home</a>
-				<a href = "about.html">About Me</a>
-				<a href = "contact.html">Contact</a>
-			</div>
-			<div class='d-none d-sm-block'>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<nav class="navbar" aria-label="Navigation Bar">
+			<a href = "index.html">Home</a>
+			<a href="about.html">About Me</a>
+			<a href = "foodpics.html" class="active">Food Pictures</a>
+			<a href = "contact.html">Contact</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 				<i class="fa fa-bars"></i>
 			</a>
-			</div>
 		</nav>
     </header>
 

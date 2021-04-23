@@ -12,15 +12,13 @@
 </script>
 
 <script>
-function myFunction() {
-  var x = document.querySelector(".links");
-  if ($(window).width() <= 767) {
-  if (x.style.display === "block") {
-    x.style.display = "none";
+ function myFunction() {
+  var x = document.querySelector(".navbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
   } else {
-    x.style.display = "block";
+    x.className = "navbar";
   }
- }
 }
 </script>
 
@@ -36,18 +34,14 @@ function myFunction() {
 
     <header>
         <nav class="navbar" aria-label="Navigation Bar">
+            <a href = "index.html">Home</a>
             <a href="about.html" class="active">About Me</a>
-			<div id='links'>
-				<a href = "index.html">Home</a>
-				<a href = "foodpics.html">Food Pictures</a>
-				<a href = "contact.html">Contact</a>
-			<div>
-            <div class='d-none d-sm-block'>
+			<a href = "foodpics.html">Food Pictures</a>
+			<a href = "contact.html">Contact</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
         </nav>
-    </div>
     </header>
 
    
