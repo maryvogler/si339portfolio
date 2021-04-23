@@ -29,7 +29,7 @@ body {
     
 }
 
-.navbar a.hamburger {
+.navbar a.icon {
     background: black;
     display: block;
     position: absolute;
@@ -301,6 +301,18 @@ input[type=submit]:hover {
     z-index: 999;
   }
 
+/*mobile view*/
+@media (max-width:600px) {
+    .navbar ul li {
+        display: none;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+}
+
 /*Tablet view*/
 @media (min-width:768px) {
     .hamburger {
@@ -342,7 +354,7 @@ input[type=submit]:hover {
         text-decoration: none;
         vertical-align: middle;
     }
-    
+
     .navbar li a:hover {
         color: #4B0082;
     }
