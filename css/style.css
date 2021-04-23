@@ -342,9 +342,9 @@ input[type=submit]:hover {
         color: #4B0082;
     }
     
-    .active {
-        color: #EB3300;
-        text-decoration: underline;
+    a .active {
+        color: #EB3300 !important; 
+        text-decoration: underline !important;
       }
 
 }
