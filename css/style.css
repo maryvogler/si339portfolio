@@ -2,6 +2,7 @@
 /*source for contact form: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /*source for flipcard: https://www.w3schools.com/howto/howto_css_flip_card.asp*/
 /* source for mobile view hamburger menu: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp*/
+/* source for responsive navbar: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
 body {
     background-image: url("../imgs/background-photo.png");
     min-height: 100%;
@@ -264,59 +265,6 @@ input[type=submit]:hover {
   }
 
 
-/*Tablet view*/
-@media (min-width:768px) {
-    .icon {
-        display: none;
-    }
-    
-    header {
-        background-color: #AFEEEE;
-        border: 7px ridge #EB3300;
-        max-width: 100%;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       
-    }
-
-    .navbar {
-        overflow: hidden;
-        position: relative;
-    }
-    
-    .navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-     /*   background-color: white; */
-    }
-    
-    .navbar li {
-        display: inline;
-    }
-    
-    .navbar li a {
-        font-size: 25px;
-        color: black;
-        text-align: center;
-        padding: 85px; 
-        text-decoration: none;
-        vertical-align: middle;
-    }
-
-    .navbar li a:hover {
-        color: #4B0082;
-    }
-    
-    .active {
-        color: #EB3300;
-        text-decoration: underline;
-      }
-
-}
-
 /*mobile view*/
 @media screen and (max-width: 600px) {
     .navbar a:not(.active) {
@@ -340,9 +288,8 @@ input[type=submit]:hover {
     
 }
 
-  /*Desktop view*/
-  @media (min-width: 1060px) {
-
+/*Tablet view*/
+@media (min-width:768px) {
     header {
         background-color: #AFEEEE;
         border: 7px ridge #EB3300;
@@ -351,6 +298,45 @@ input[type=submit]:hover {
         display: flex;
         justify-content: center;
         align-items: center;
+       
+    }
+
+    .navbar a {
+        display: block;
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    
+
+    .navbar a:hover {
+        color: #4B0082;
+    }
+    
+    .active {
+        color: #EB3300;
+        text-decoration: underline;
+      }
+
+}
+
+
+  /*Desktop view*/
+  @media (min-width: 1060px) {
+
+    header {
+        position: fixed;
+        background-color: #AFEEEE;
+        border: 7px ridge #EB3300;
+        max-width: 100%;
+        height: 50px;
+        text-align: center;
+        top: 0;
+        overflow: hidden;
        
     }
 
