@@ -354,7 +354,7 @@ input[type=submit]:hover {
 }
   /*Desktop view*/
   @media (min-width: 1060px) {
-      .hamburger {
+      .icon {
           display: none;
       }
 
