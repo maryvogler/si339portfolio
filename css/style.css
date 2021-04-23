@@ -15,14 +15,13 @@ body {
     position: relative;
 }
 
-.navbar ul {
+.navbar #links {
     display: none;
 
 }
 
-.navbar ul li {
+.navbar a {
     color: black;
-    list-style-type: none;
     text-decoration: none;
     font-size: 10px;
     display: block;
@@ -327,11 +326,8 @@ input[type=submit]:hover {
 }
   /*Desktop view*/
   @media (min-width: 1060px) {
-      .icon {
-          display: none;
-      }
 
-      header {
+    header {
         background-color: #AFEEEE;
         border: 7px ridge #EB3300;
         max-width: 100%;
@@ -342,32 +338,23 @@ input[type=submit]:hover {
        
     }
 
-    .navbar {
-        overflow: hidden;
-        position: relative;
-    }
-    
-    .navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-     /*   background-color: white; */
-    }
-    
-    .navbar li {
-        display: inline;
-    }
-    
-    .navbar li a {
-        font-size: 25px;
-        color: black;
-        text-align: center;
-        padding: 85px; 
-        text-decoration: none;
-        vertical-align: middle;
-    }
+    .navbar a.icon {
+          display: none;
+      }
 
-    .navbar li a:hover {
+
+      .navbar a {
+          float: left;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 25px;
+
+      }
+    
+
+    .navbar a:hover {
         color: #4B0082;
     }
     

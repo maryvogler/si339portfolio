@@ -12,13 +12,15 @@
 </script>
 
 <script>
-    function myFunction() {
+function myFunction() {
   var x = document.querySelector(".links");
+  if ($(window).width() <= 480) {
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
   }
+ }
 }
 </script>
 
@@ -33,19 +35,19 @@
 <body>
 
     <header>
-        <nav class="navbar" aria-label="Navigation Bar">
+        <div class="navbar" aria-label="Navigation Bar">
             <a href="about.html" class="active">About Me</a>
-			<ul class='links'>
-				<li><a href = "index.html">Home</a></li>
-				<li><a href = "foodpics.html">Food Pictures</a></li>
-				<li><a href = "contact.html">Contact</a></li>
-			</ul>
+			<div id='links'>
+				<a href = "index.html">Home</a></li>
+				<a href = "foodpics.html">Food Pictures</a></li>
+				<a href = "contact.html">Contact</a></li>
+			<div>
             <div class='d-none d-sm-block'>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
-    </nav>
+    </div>
     </header>
 
    
