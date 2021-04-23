@@ -117,10 +117,11 @@ footer {
     margin: 25px; */
     margin: 0px auto;
     max-width: 100%;
-    grid-gap: 25px;
+    row-gap: 30px;
     column-gap: 25px;
     align-items: center;
     justify-items: center;
+    padding-top: 50px;
 }
 
 .gallery_img {
@@ -368,6 +369,8 @@ input[type=submit]:hover {
         grid-template-rows: repeat(3, 300px);
         grid-gap: 50px;
         column-gap: 50px;
+        margin: 0 auto;
+        text-align: center;
     }
     
     .gallery_item-1{
